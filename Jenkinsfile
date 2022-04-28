@@ -1,4 +1,4 @@
-node {
+node ('MAVEN') {
   stage ('SCM'){
     //git clone
     git clone 'https://github.com/mohitwasnik132/spring-petclinic.git'
